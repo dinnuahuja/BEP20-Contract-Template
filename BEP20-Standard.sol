@@ -349,10 +349,10 @@ contract BEP20Standard is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "BEP20 Standard";
-    _symbol = "BEST";
-    _decimals = 8;
-    _totalSupply = 10000000000000; // 100 thousand
+    _name = "BLACK BIT";
+    _symbol = "BBIT";
+    _decimals = 18;
+    _totalSupply = 1000000000000000000000000000; // 100 Billion
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
